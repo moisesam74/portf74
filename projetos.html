@@ -2,24 +2,30 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projetos</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <ul class="menu">
-        <li><a href="index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="projetos.html">Projetos</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
   <main>
     <h1>Projetos Desenvolvidos</h1>
-    <p>Veja abaixo alguns dos meus projetos realizados com HTML, CSS e JavaScript.</p>
+    <section class="projetos">
+      <div class="projeto" onclick="destacar(this)">
+        <h2>Projeto 1</h2>
+        <p>Descrição do projeto 1.</p>
+      </div>
+      <div class="projeto" onclick="destacar(this)">
+        <h2>Projeto 2</h2>
+        <p>Descrição do projeto 2.</p>
+      </div>
+    </section>
   </main>
 </body>
 </html>
